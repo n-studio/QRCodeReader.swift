@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/yannickl/QRCodeReader.swift.git', :tag => s.version }
   s.screenshot       = 'http://yannickloriot.com/resources/qrcodereader.swift-screenshot.jpg'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
+  s.macos.deployment_target = '11.0'
 
   s.framework    = 'AVFoundation'
   s.source_files = 'Sources/*.swift'
